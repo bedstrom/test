@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<QUESTIONSET set_type="midi_mc" instructions="Select the appropriate response from the list."
+             questions_per_session="10" author="Brent Edstrom" description="Primary triads"
+             transposition_range="12" response_type="midi_mc" randomize_set="true">
+  <QUESTION type="midi_mc" answer="major">
+    <MSG st="144" d1="57" d2="101" ts="712"/>
+    <MSG st="144" d1="60" d2="94" ts="716"/>
+    <MSG st="144" d1="53" d2="83" ts="722"/>
+    <MSG st="128" d1="53" d2="82" ts="3531"/>
+    <MSG st="128" d1="60" d2="85" ts="3537"/>
+    <MSG st="128" d1="57" d2="91" ts="3544"/>
+  </QUESTION>
+  <QUESTION type="midi_mc" answer="minor">
+    <MSG st="144" d1="56" d2="89" ts="549"/>
+    <MSG st="144" d1="53" d2="84" ts="555"/>
+    <MSG st="144" d1="60" d2="88" ts="557"/>
+    <MSG st="128" d1="53" d2="61" ts="3611"/>
+    <MSG st="128" d1="60" d2="59" ts="3621"/>
+    <MSG st="128" d1="56" d2="89" ts="3647"/>
+  </QUESTION>
+  <QUESTION type="midi_mc" answer="augmented">
+    <MSG st="144" d1="61" d2="103" ts="636"/>
+    <MSG st="144" d1="53" d2="91" ts="646"/>
+    <MSG st="144" d1="57" d2="96" ts="649"/>
+    <MSG st="128" d1="53" d2="85" ts="4285"/>
+    <MSG st="128" d1="61" d2="91" ts="4296"/>
+    <MSG st="128" d1="57" d2="91" ts="4303"/>
+  </QUESTION>
+  <QUESTION type="midi_mc" answer="diminished">
+    <MSG st="144" d1="56" d2="96" ts="481"/>
+    <MSG st="144" d1="59" d2="103" ts="488"/>
+    <MSG st="144" d1="53" d2="86" ts="489"/>
+    <MSG st="128" d1="53" d2="82" ts="4304"/>
+    <MSG st="128" d1="59" d2="87" ts="4310"/>
+    <MSG st="128" d1="56" d2="95" ts="4319"/>
+  </QUESTION>
+</QUESTIONSET>
